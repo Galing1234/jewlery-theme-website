@@ -1,0 +1,82 @@
+.main {
+  display: flex ;
+  flex-direction: column ;
+  align-items: center ;
+}
+
+.search-result {
+  display: flex ;
+  flex-direction: column ;
+  margin-top: 20px ;
+  width: 80% ;
+  height: 300px ;
+  border-radius: 20px ;
+  border: 2px solid rgb(220, 220, 220) ;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 10px ;
+}
+
+.search-result-title {
+  display: flex ;
+  justify-content: center ;
+  font-size: 26px ;
+  font-weight: bold ;
+  border-bottom: 2px solid rgb(0, 0, 0) ;
+  margin-bottom: 10px ;
+}
+
+.search-result-info {
+  display: flex ;
+  height: 50% ;
+}
+
+.search-result-image-div {
+  display: flex ;
+  justify-content: center ;
+  width: 220px ;
+  border: 2px solid rgb(200, 200, 200) ;
+  border-radius: 20px ;
+  margin-right: 10px ;
+}
+
+.search-result-image-div:hover .search-result-image {
+  height: 95% ;
+  width: 160px ;
+}
+
+.search-result-image {
+  width: 140px ;
+  height: 85% ;
+  max-width: 160px ;
+  max-height: 95% ;
+  transition: 
+    height 0.35s,
+    width 0.35s ;
+}
+
+.search-result-manufacturer {
+  align-self: center ;
+  font-size: 22px ;
+}
+
+.search-result-manufacturer-title {
+  font-weight: 600 ;
+  font-size: 24px ;
+}
+
+.read-more-button-div {
+  display: flex ;
+  height: 100% ;
+  justify-content: center ;
+  align-items: center ;
+}
+
+.read-more-button {
+  background-color: rgb(0, 150, 0);
+  color: rgb(255, 255, 255) ;
+  border: none ;
+  padding: 10px 15px ;
+  font-size: 14px ;
+  cursor: pointer ;
+  border-radius: 5px ;
+}

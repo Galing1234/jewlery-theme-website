@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/handmade-jewlery-loader.css">
+  <link rel="stylesheet" href="styles/handmade-jewlery-general.css">
+  <link rel="stylesheet" href="styles/handmade-jewlery-header.css">
+  <link rel="stylesheet" href="styles/handmade-jewlery-search/handmade-jewlery-main.css">
+
+  <script src="src/handmade-jewlery-loading.js"></script>
+</head>
+<body>
+  <div class="loader-container">
+    <div class="loader">
+
+    </div>
+  </div>
+
+  <header class="header">
+    <section class="header-top-section">
+      <article class="header-left-section">
+        <div class="logo">
+          <div>
+            Handmade
+          </div>
+  
+          <div>
+            JEWLERY
+          </div>
+  
+          <img src="assets/jewlery.png" alt="jewlery-image" class="jewlery-image">
+        </div>
+      </article>
+    
+      <article class="header-middle-section">
+        <svg class="search-icon-svg" height="40" width="40" stroke="black" stroke-width="2" fill="none">
+          <circle cx="15" cy="15" r="8" />
+          <polyline points="22,22 32,32"/>
+        </svg>
+        
+        <input type="text" placeholder="Search Handmade Jewlery here.." class="header-search-box">
+        <div class="input-autocomplete-results">
+  
+        </div>
+      </article>
+  
+      <article class="header-right-section">
+        <div class="total-quantity">
+  
+        </div>
+        
+        <img src="icons/cart-icon.png" alt="cart-icon" class="cart-icon">
+      </article>
+    </section>
+
+    <section class="header-bottom-section">
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </section>
+  </header>
+  
+  <main class="main">
+    
+  </main>
+  
+  <script src="products/products.js"></script>
+  <script src="src/handmade-jewlery-general.js"></script>
+  <script src="src/handmade-jewlery-search.js"></script>
+</body>
+</html>

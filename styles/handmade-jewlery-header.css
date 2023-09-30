@@ -1,0 +1,131 @@
+.header {
+  display: flex ;
+  flex-direction: column ;
+  position: fixed ;
+  top: 0 ;
+  left: 0 ;
+  right: 0 ;
+  background-color: rgb(173, 173, 54) ;
+  height: 100px ;
+  z-index: 1000 ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3) ;
+  border-bottom: 1.5px solid gray ;
+  padding-top: 5px ;
+}
+
+.header-top-section {
+  display: flex ;
+  justify-content: space-between ;
+  margin-bottom: 20px ;
+}
+
+.header-left-section,
+.header-right-secction {
+  display: flex ;
+}
+
+.logo {
+  position: relative ;
+  margin-left: 20px ;
+  cursor: pointer ;
+  font-size: 22px ;
+  font-weight: bold ;
+}
+
+.logo div {
+  position: relative ;
+  z-index: 100 ;
+}
+
+.jewlery-image {
+  position: absolute ;
+  top: 15px ;
+  left: 120px ;
+  width: 100px ;
+  z-index: 10 ;
+}
+
+.header-middle-section {
+  position: relative ;
+  display: flex ;
+  flex: 1 ;
+  margin-top: 15px ;
+  margin-left: 120px ;
+}
+
+.search-icon-svg {
+  position: absolute ;
+  cursor: pointer ;
+}
+
+.header-search-box {
+  width: 80% ; 
+  height: 40px ;
+  border-radius: 10px ;
+  border: 1px solid black ;
+  outline: none ;
+  padding-left: 40px ;
+}
+
+.header-right-section {
+  position: relative ;
+  align-items: center ;
+  justify-content: center ;
+  flex-direction: column ;
+  margin-right: 20px ;
+  cursor: pointer ;
+  z-index: 100 ;
+}
+
+.total-quantity {
+  position: absolute ;
+  color: rgb(255, 165, 0) ;
+  font: 20px Arial ;
+  top: 5px ;
+}
+
+.cart-icon {
+  position: absolute ;
+  top: 20px ;
+  right: 10px ;
+  width: 60px ;
+}
+
+.input-autocomplete-results {
+  position: absolute ;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.input-autocomplete-results ul {
+  list-style: none ;
+  padding: 0 ;
+  margin: 0 ;
+}
+
+.input-autocomplete-results li {
+  padding: 10px ;
+  cursor: pointer ;
+}
+
+.input-autocomplete-results li:hover {
+  background-color: rgb(230, 230, 230) ;
+}
+
+.progress-container {
+  height: 18.5px ;
+  width: 100% ;
+  background-image: linear-gradient(to bottom right, rgb(255, 187, 0), rgb(255, 0, 0)) ;
+  z-index: 10000 ;
+}
+
+.progress-bar {
+  height: 100% ;
+  background-image: linear-gradient(to top left, purple, rgb(31, 55, 107)) ;
+}
