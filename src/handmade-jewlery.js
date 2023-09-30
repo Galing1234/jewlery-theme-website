@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let main = document.querySelector('.main') ;
   let productHTML = '' ;
   let totalQuantityGeneral = JSON.parse(localStorage.getItem('total-quantity')) ;
-  let cartQuantityGeneral = JSON.parse(localStorage.getItem('cart-quantity')) ;
+  let cartQuantityGeneral = JSON.parse(localStorage.getItem('cart-quantity')) || 0 ;
 
   totalQuantityDiv.innerHTML = totalQuantityGeneral ;
   
